@@ -1,0 +1,306 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&family=Lexend:wght@100..900&display=swap');
+
+/*Ajustes do corpo do Site*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    background-color: #06004e;
+    width: 100%;
+}
+
+#interface {
+    margin: 0px;
+    padding: 0px;
+    background-color: #edf2f9;
+    width: 95%;
+}
+
+/* Estilizando os ícones */
+
+.social-icons {
+    margin: 0px;
+    position: absolute;
+    float: inline-end;
+    display: flex;
+    gap: 15px;
+}
+
+@media screen and (max-width:700px){.social-icons {
+    float:inline-start;
+    display: flex;
+    gap: 15px;
+}} 
+
+.social-icons a {
+    font-size: 30px;
+    color: #00D9FF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Mudando a cor d icone quando passar o mouse */
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+}
+
+.fa-facebook:hover {
+    color: #1877F2;
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+/*Ajustes do cabeçalho*/
+
+#cabecalho {
+    padding: 10px;
+    /*position: relative;*/
+    display: block;
+    background-color: #06004e;
+}
+
+#cabecalho h1 {
+    font-family: "Arimo", sans-serif;
+    position: relative;
+    top: 60px;
+    color: #cecece;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding: 0;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#cabecalho h2 {
+    position: relative;
+    top: 60px;
+    color: #cecece;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 30px;
+    font-family: "League Spartan", sans-serif;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:700px){#cabecalho h2 {
+    text-align: center;
+}}
+
+/*Ajuste da imagem principal e div que contem ela*/
+
+#banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+ #banner img {
+    width: 100%;
+ }
+
+ /*Ajustes de bacground absoluto*/
+
+ #abs {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: left;
+    color: #cecece;
+    background-color: rgba(6, 0, 78, 0.8);
+}
+
+@media screen and (max-width:850px){#abs {
+    position: relative;
+}}
+
+#abs h1 {
+    margin-left: 10px;
+    font-family: "Arimo", sans-serif;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+#abs h2 {
+    margin-left: 10px;
+    font-family: "League Spartan", sans-serif;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+#abs p {
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: "League Spartan", sans-serif;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    line-height: 20px;
+}
+
+.icone img {
+    padding: 0px;
+    margin: 0px;
+}
+
+.icone-superior {
+    position:relative;
+    left: 74%;
+    bottom: 95px;
+    width: 70px;
+    height:70px;
+    margin: 0px;
+    padding: 0px;    
+    transition: 1s;
+}
+
+@media screen and (max-width:700px){.icone-superior {
+    left: 0%;
+    top: 40px; 
+    width: 70px;
+    height:70px;
+}}
+
+
+.whats {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.whats:hover {
+    transform: scale(1.3);
+}
+
+ /*Ajustes menu de navegação*/
+
+#menu {
+    margin: 0;
+
+}
+
+#menu h1 {
+    display: none;   
+}
+
+#menu ul {
+    display: flex; 
+    justify-content: flex-end;
+    font-family: "League Spartan", sans-serif;;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:700px){#menu ul {
+    display: block;
+    justify-content: center;
+    text-decoration: #ffffff underline;
+    text-align: center;
+}}
+
+
+#que {
+    border: 2px, solid #00D9FF;
+    padding: 5px;
+}
+
+#que #aq:hover {
+    color: #ffffff;
+    text-decoration: underline;  
+}
+
+#menu li {
+    border-radius: 25px;
+    margin: 5px;
+    transition:background-color 1s;
+    padding-top: 5px;
+    transition: 1s;
+}
+
+#menu li:hover {
+    transform: scale(1.3);
+}
+
+@media screen and (max-width:700px){#menu li:hover  {
+    transform: scale(1.0);
+}} 
+
+#menu a {
+    color: #ffffff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center; 
+}
+
+#menu a:hover {
+    color: #00D9FF;
+    text-decoration: underline;  
+}
+
+/*Ajustes para redução de tela menu*/
+
+@media screen and (max-width:700px){#menu ul, ul#album-fotos, ul#coment-fotos  {
+    flex-direction: column;
+}} 
+
+.rodape {
+    background-color: #06004e;
+    padding: 0;
+    height: 100px;
+    align-content: center;
+}
+
+.rodape h1 {
+    display: flex;
+    font-family: "Arimo" sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    align-content:flex-start;
+    margin-left: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.rodape h2 {
+    display: inline-block;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    align-content:flex-start;
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+.rodape .p1-rdp {
+    font-family: "League Spartan", sans-serif;
+    font-size: 15px;
+    padding: 10px 5px 30px 5px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 0px;
+    line-height: 20px;
+}
+
+ #div-rpd {
+    border-top: 1px solid #ffffff;
+    align-items:center;
+ }
+
+ footer {
+    margin: 0 auto;
+    width: 100%;
+ }

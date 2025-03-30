@@ -398,7 +398,7 @@ ul#coment-fotos li:hover span{
 /*Lista de fotos de comentários*/
 
 ul#coment-fotos li#foto01 {
-    background: url('../_imagens/coment1.jpeg')no-repeat;
+    background: url('coment1.jpeg')no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff; 
@@ -410,7 +410,7 @@ ul#coment-fotos li#foto01:hover {
 }
 
 ul#coment-fotos li#foto02 {
-    background: url('../_imagens/coment2.jpeg')no-repeat;
+    background: url('coment2.jpeg')no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -422,7 +422,7 @@ ul#coment-fotos li#foto02:hover {
 }
 
 ul#coment-fotos li#foto03 {
-    background: url('../_imagens/coment3.jpeg')no-repeat;
+    background: url('coment3.jpeg')no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -434,7 +434,7 @@ ul#coment-fotos li#foto03:hover {
 }
 
 ul#coment-fotos li#foto04 {
-    background: url('../_imagens/coment4.jpeg')no-repeat;
+    background: url('coment4.jpeg')no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;

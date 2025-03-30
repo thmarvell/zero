@@ -312,7 +312,7 @@ ul#album-fotos li:hover {
 }
 
 ul#album-fotos li#foto01 {
-    background: url('../_imagens/jardim.jpg')no-repeat;
+    background: url('jardim.jpg')no-repeat;
     background-size: 350px 250px;
     background-color: #ffffff; 
 }
@@ -322,7 +322,7 @@ ul#album-fotos li#foto01:hover {
 }
 
 ul#album-fotos li#foto02 {
-    background: url('../_imagens/piscina..jpg')no-repeat;
+    background: url('piscina..jpg')no-repeat;
     background-size: 350px 250px;
     background-color: #ffffff;
 }
@@ -332,7 +332,7 @@ ul#album-fotos li#foto02:hover {
 }
 
 ul#album-fotos li#foto03 {
-    background: url('../_imagens/obra..jpg')no-repeat;
+    background: url('obra..jpg')no-repeat;
     background-size: 350px 250px;
     background-color: #ffffff;
 }

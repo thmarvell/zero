@@ -309,7 +309,11 @@ article {
 }
 
 @media (max-width:700px) {
-    #pen, #bal, #pos, #obr {
+    #pen, #bal {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
         width: 150px;
     }
 }
@@ -323,18 +327,30 @@ article {
 
 @media (max-width:700px) {
     #enc, #jar, #fel{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
         width: 150px;
     }
 }
 
 @media (max-width:700px) {
     #obr{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
         width: 200px;
     }
 }
 
 @media (max-width:700px) {
     #pos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
         width: 400px;
     }
 }
@@ -356,6 +372,7 @@ article {
 @media (max-width:700px) {
     .container h1{
         font-size: 30px;
+        text-align: center;
     }
 }
 
@@ -375,6 +392,7 @@ article {
 @media (max-width:700px) {
     .container h2{
         font-size: 20px;
+        text-align: center;
     }
 }
 
@@ -390,6 +408,7 @@ article {
 @media (max-width:700px) {
     .container p {
         font-size: 18px;
+        text-align: center;
     }
 }
 
